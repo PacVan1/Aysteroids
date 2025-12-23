@@ -32,6 +32,12 @@
     <ClCompile Include="source\ObstacleSpawner.cpp" />
     <ClCompile Include="source\Particle.cpp" />
     <ClCompile Include="source\ParticleSystem.cpp" />
+    <ClCompile Include="source\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="source\Player.cpp" />
     <ClCompile Include="source\Rigidbody.cpp" />
     <ClCompile Include="source\ScoreSystem.cpp" />
@@ -45,6 +51,7 @@
     <ClInclude Include="source\CircleCollider.h" />
     <ClInclude Include="source\Collision.h" />
     <ClInclude Include="source\Crosshair.h" />
+    <ClInclude Include="source\Device.h" />
     <ClInclude Include="source\Game.h" />
     <ClInclude Include="source\Gun.h" />
     <ClInclude Include="source\Mineral.h" />
@@ -53,6 +60,7 @@
     <ClInclude Include="source\ObstacleSpawner.h" />
     <ClInclude Include="source\Particle.h" />
     <ClInclude Include="source\ParticleSystem.h" />
+    <ClInclude Include="source\pch.h" />
     <ClInclude Include="source\Player.h" />
     <ClInclude Include="source\Rigidbody.h" />
     <ClInclude Include="source\ScoreSystem.h" />
@@ -146,6 +154,8 @@
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -171,6 +181,8 @@
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -192,6 +204,8 @@
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -213,6 +227,8 @@
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

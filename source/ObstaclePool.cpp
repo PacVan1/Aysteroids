@@ -1,3 +1,5 @@
+#include "pch.h"
+
 #include "ObstaclePool.h"
 
 bool WallCollisionDetected(Obstacle& obs, float lBoundary, float rBoundary, float bBoundary, float uBoundary)

@@ -1,3 +1,5 @@
+#include "pch.h"
+
 #include "Collision.h"
 
 bool Collision::CollisionDetected(Obstacle& obs1, Obstacle& obs2)

@@ -63,6 +63,9 @@
     <ClCompile Include="source\UI.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="source\pch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Bar.h">
@@ -120,6 +123,12 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="source\UI.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Device.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\pch.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

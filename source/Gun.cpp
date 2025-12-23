@@ -1,3 +1,5 @@
+#include "pch.h"
+
 #include "Gun.h"
 #include <iterator>
 #include <cmath>

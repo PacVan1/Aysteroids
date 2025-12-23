@@ -1,3 +1,5 @@
+#include "pch.h"
+
 #include "Obstacle.h"
 
 Obstacle::Obstacle(Obstacle& obs, Vector2f position) :

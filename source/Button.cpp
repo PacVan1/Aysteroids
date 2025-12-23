@@ -1,3 +1,5 @@
+#include "pch.h"
+
 #include "Button.h"
 
 Button::Button(Font& font, string text_, Vector2f size, Color normalColor, Color hoverColor, int charSize, int outlineThickness) : 

@@ -1,3 +1,5 @@
+#include "pch.h"
+
 #include <SFML\Graphics.hpp>  
 #include <ctime>
 #include "Game.h"
@@ -13,7 +15,7 @@
 using namespace std;
 using namespace sf;
 
-static const float VIEW_WIDTH = 2560.0f;
+static const float VIEW_WIDTH = 1260.0f;
 static const float VIEW_HEIGHT = 1600.0f;
 
 int main()
@@ -27,7 +29,6 @@ int main()
         sf::State::Fullscreen,
         settings
     );
-
 
     Game game;
 
