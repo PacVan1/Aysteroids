@@ -35,3 +35,5 @@
 **/.vs/
 **/Debug/
 **/vcpkg_installed/
+**/Release/
+**/Intermediate/
